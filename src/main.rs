@@ -12,5 +12,5 @@ fn main() {
         }
     }
 
-    img.save("output.png");
+    let _ = img.save("output.png");
 }
