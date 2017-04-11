@@ -8,7 +8,7 @@ fn main() {
     for x in 0..256 {
         for y in 0..256 {
             let pixel = Rgb::from_channels(0, x as u8 ^ y as u8, 0, 0);
-            img.put_pixel(x as u32, y as u32, pixel);
+            img.put_pixel(x, y, pixel);
         }
     }
 
