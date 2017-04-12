@@ -1,4 +1,4 @@
-# Rust Munching Squares
+# Munching Squares
 
 > A Rust Example of [Munching Squares][0]
 
